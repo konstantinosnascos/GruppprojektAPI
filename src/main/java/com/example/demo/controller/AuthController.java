@@ -19,7 +19,6 @@ public class AuthController {
     }
 
     public String login2(@RequestBody String body) {
-
         
         return "TODO OAuth2";
     }
