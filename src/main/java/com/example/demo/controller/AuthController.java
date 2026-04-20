@@ -17,4 +17,10 @@ public class AuthController {
 
         return "TODO JWT";
     }
+
+    public String login2(@RequestBody String body) {
+
+        
+        return "TODO OAuth2";
+    }
 }
