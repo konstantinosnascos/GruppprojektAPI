@@ -22,9 +22,6 @@ public class SecurityConfig {
                 .anyRequest().authenticated()
             )
             .oauth2Login(Customizer.withDefaults())
-            // TODO:
-            // Lägg till JWT filter
-            // Lägg till oauth2Login()
         ;
 
         return http.build();
