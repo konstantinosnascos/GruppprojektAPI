@@ -1,5 +1,6 @@
 ﻿# GruppprojektAPI
-
+## Detlagare: Malmö 2 Gruppen
+Jonathan Iskasson, Konstantinos Nascos, Felix Lidén, Markus Nikolic, Rasha Knifdi, Jonatan Emil Dahl.
 ## JWT
 **Username:** *user*
 **Password:** *password*
