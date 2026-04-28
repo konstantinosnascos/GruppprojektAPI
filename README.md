@@ -1,8 +1,8 @@
 ﻿# GruppprojektAPI
 
 ## JWT
-*Username:* user
-*Password:* password
+Username: *user*
+Password: *password*
 
 ## OAuth2
 Login via Github account
