@@ -30,12 +30,14 @@ public class SecurityConfig {
 
         http
             .csrf(csrf -> csrf.disable())
-            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
+            .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED))
             .authorizeHttpRequests(auth -> auth
                 .requestMatchers("/",
                         "/index.html",
                         "/public",
                         "/login",
+                        "/oauth2/**",
+                        "/login/oauth2/**",
                         "/h2-console/**").permitAll()
                 .anyRequest().authenticated()
             )
