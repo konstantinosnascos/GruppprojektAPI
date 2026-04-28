@@ -11,6 +11,8 @@ Login via Github account
 ### JWT 
 Utger mindre säkerhet i jämförelse till OAuth2 men befriar dig ifrån att använda ett tredjeparti tjänst som Google. Med mindre säkerhet generellt så kräver det också högre anvsar för att skydda den information och datan för användare av tjänsten. Sessionstillståndet är mer flexibelt och mer generöst eftersom informationen ligger i tokenen.
 
+Man måste också tillföhålla sig till kraven som den externa providern sätter för att de ska tillåta att sidan att använda deras tjänst. Om sitt syfte devierar på något sätt ifrån den externa providern kan rättigheterna att använda dem tas bort. Utgifter kan också tillkomma ifall inloggningar och användninga av tjänsten når ett visst antal/gräns. För stora appar/hemsidor/tjänster blir detta nog en faktor att hålla koll på.
+
 **Sammanfattningsvis** så kräver JWT att man bygger ett säkerhetsystem från grunden.
 
 ### OAuth2
